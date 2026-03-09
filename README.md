@@ -130,6 +130,7 @@ The only prerequisite is the underlying coding agent you want to use:
 - `acpx kiro` -> Kiro CLI: https://kiro.dev
 - `acpx pi` -> Pi Coding Agent: https://github.com/mariozechner/pi
 - `acpx kilocode` -> Kilocode: https://kilocode.ai
+- `acpx qwen` -> Qwen Code: https://github.com/QwenLM/qwen-code
 
 ## Usage examples
 
@@ -171,6 +172,8 @@ acpx copilot 'summarize recent changes'     # built-in GitHub Copilot agent
 acpx claude 'refactor auth middleware' # built-in claude agent
 acpx gemini 'add startup logging'      # built-in gemini agent
 acpx openclaw exec 'summarize active session state' # built-in OpenClaw ACP bridge
+acpx qwen 'explain this module architecture' # built-in qwen code agent
+acpx qwen exec 'Reply exactly QWEN_ACP_OK'   # one-shot ACP smoke test
 
 acpx my-agent 'review this patch'                      # unknown name -> raw command
 acpx --agent './bin/dev-acp --profile ci' 'run checks' # --agent escape hatch
@@ -286,6 +289,7 @@ Built-ins:
 | `opencode` | native                                                                 | [OpenCode](https://opencode.ai)                                                                                 |
 | `pi`       | [pi-acp](https://github.com/svkozak/pi-acp)                            | [Pi Coding Agent](https://github.com/mariozechner/pi)                                                           |
 | `kilocode` | native                                                                 | [Kilocode](https://kilocode.ai)                                                                                 |
+| `qwen`     | native (`qwen --acp`)                                                  | [Qwen Code](https://github.com/QwenLM/qwen-code)                                                                |
 
 Use `--agent` as an escape hatch for custom ACP servers:
 

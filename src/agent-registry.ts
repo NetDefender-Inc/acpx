@@ -9,6 +9,7 @@ export const AGENT_REGISTRY: Record<string, string> = {
   kiro: "kiro-cli acp",
   pi: "npx pi-acp",
   kilocode: "npx -y @kilocode/cli acp",
+  qwen: "qwen --acp",
 };
 
 export const DEFAULT_AGENT_NAME = "codex";
