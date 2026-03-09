@@ -126,6 +126,7 @@ The only prerequisite is the underlying coding agent you want to use:
 - `acpx gemini` -> Gemini CLI: https://github.com/google/gemini-cli
 - `acpx openclaw` -> OpenClaw ACP bridge: https://github.com/openclaw/openclaw
 - `acpx opencode` -> OpenCode: https://opencode.ai
+- `acpx kiro` -> Kiro CLI: https://kiro.dev
 - `acpx pi` -> Pi Coding Agent: https://github.com/mariozechner/pi
 
 ## Usage examples
